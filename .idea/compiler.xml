@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="microservice-config-server" />
+        <module name="microservice-consumer-movie-feign" />
+        <module name="microservice-consumer-movie-ribbon" />
+        <module name="microservice-consumer-movie-ribbon-with-hystrix" />
+        <module name="microservice-discovery-eureka" />
+        <module name="microservice-hystrix-dashboard" />
+        <module name="microservice-hystrix-turbine" />
+        <module name="microservice-provider-user" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="microservice-config-server" target="1.8" />
+      <module name="microservice-consumer-movie-feign" target="1.8" />
+      <module name="microservice-consumer-movie-ribbon" target="1.8" />
+      <module name="microservice-consumer-movie-ribbon-with-hystrix" target="1.8" />
+      <module name="microservice-discovery-eureka" target="1.8" />
+      <module name="microservice-hystrix-dashboard" target="1.8" />
+      <module name="microservice-hystrix-turbine" target="1.8" />
+      <module name="microservice-provider-user" target="1.8" />
+      <module name="springcloudstudy" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

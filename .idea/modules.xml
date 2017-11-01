@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/microservice-config-server/microservice-config-server.iml" filepath="$PROJECT_DIR$/microservice-config-server/microservice-config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-consumer-movie-feign/microservice-consumer-movie-feign.iml" filepath="$PROJECT_DIR$/microservice-consumer-movie-feign/microservice-consumer-movie-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon/microservice-consumer-movie-ribbon.iml" filepath="$PROJECT_DIR$/microservice-consumer-movie-ribbon/microservice-consumer-movie-ribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon-with-hystrix/microservice-consumer-movie-ribbon-with-hystrix.iml" filepath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-with-hystrix/microservice-consumer-movie-ribbon-with-hystrix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-discovery-eureka/microservice-discovery-eureka.iml" filepath="$PROJECT_DIR$/microservice-discovery-eureka/microservice-discovery-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-hystrix-dashboard/microservice-hystrix-dashboard.iml" filepath="$PROJECT_DIR$/microservice-hystrix-dashboard/microservice-hystrix-dashboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-hystrix-turbine/microservice-hystrix-turbine.iml" filepath="$PROJECT_DIR$/microservice-hystrix-turbine/microservice-hystrix-turbine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-provider-user/microservice-provider-user.iml" filepath="$PROJECT_DIR$/microservice-provider-user/microservice-provider-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloudstudy.iml" filepath="$PROJECT_DIR$/springcloudstudy.iml" />
+    </modules>
+  </component>
+</project>
