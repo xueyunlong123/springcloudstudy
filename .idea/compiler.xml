@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="common-enum" />
+        <module name="common-utils" />
         <module name="common-web" />
         <module name="microservice-api-gateway" />
         <module name="microservice-config-client" />
@@ -24,6 +25,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="common-enum" target="1.8" />
+      <module name="common-utils" target="1.8" />
       <module name="common-web" target="1.8" />
       <module name="microservice-api-gateway" target="1.8" />
       <module name="microservice-config-client" target="1.8" />

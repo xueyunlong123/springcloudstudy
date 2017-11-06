@@ -20,9 +20,9 @@ import java.util.List;
 @Slf4j
 public class CoreHeaderInterceptor extends HandlerInterceptorAdapter {
 
-    @Value(value = "HEADER_LABEL")
+    @Value("${HEADER_LABEL}")
     public static String HEADER_LABEL;
-    @Value(value = "HEADER_LABEL_SPLIT")
+    @Value("${HEADER_LABEL_SPLIT}")
     public static String HEADER_LABEL_SPLIT;
 
     public static final HystrixRequestVariableDefault<List<String>> label = new HystrixRequestVariableDefault<>();

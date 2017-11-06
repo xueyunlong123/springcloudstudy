@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: microservice-config-server-eureka
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/xueyunlong123/springcloudstudy/
+          search-paths: config-repo
+          username: xueyunlong123
+          password: 1995xueyunlong
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://root:root@discovery:8761/eureka/
