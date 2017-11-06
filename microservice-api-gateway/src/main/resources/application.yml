@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: microservice-api-gateway
+server:
+  port: 8060
+eureka:
+  instance:
+    hostname: gateway
+  client:
+    serviceUrl:
+      defaultZone: http://root:root@discovery:8761/eureka/
+# 下面整个树都非必须，如果不配置，将默认使用 http://GATEWAY:GATEWAY_PORT/想要访问的Eureka服务id的小写/** 路由到：http://想要访问的Eureka服务id的小写:该服务端口/**
+zuul:
+#  ignored-services: microservice-provider-user          # 需要忽视的服务(配置后将不会被路由)
+  routes:
+    user:                                               # 可以随便写，在zuul上面唯一即可；当这里的值 = service-id时，service-id可以不写。
+      path: /user/**                                    # 想要映射到的路径
+      service-id: microservice-provider-user            # Eureka中的serviceId
+##配置中心
+cloud:
+    config:
+      uri: http://microservice-config-server-eureka:8050/
+      profile: dev                      # 指定profile，对应microservice-config-server所获取的配置文件中的{profile}
+      label: master                     # 指定git仓库的分支，对应microservice-config-server所获取的配置文件的{label}

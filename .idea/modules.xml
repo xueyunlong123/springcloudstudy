@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/common-enum/common-enum.iml" filepath="$PROJECT_DIR$/common-enum/common-enum.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common-web/common-web.iml" filepath="$PROJECT_DIR$/common-web/common-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-api-gateway/microservice-api-gateway.iml" filepath="$PROJECT_DIR$/microservice-api-gateway/microservice-api-gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-config-client/microservice-config-client.iml" filepath="$PROJECT_DIR$/microservice-config-client/microservice-config-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-config-client-eureka/microservice-config-client-eureka.iml" filepath="$PROJECT_DIR$/microservice-config-client-eureka/microservice-config-client-eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-config-server/microservice-config-server.iml" filepath="$PROJECT_DIR$/microservice-config-server/microservice-config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-config-server-eureka/microservice-config-server-eureka.iml" filepath="$PROJECT_DIR$/microservice-config-server-eureka/microservice-config-server-eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-consumer-movie-feign/microservice-consumer-movie-feign.iml" filepath="$PROJECT_DIR$/microservice-consumer-movie-feign/microservice-consumer-movie-feign.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon/microservice-consumer-movie-ribbon.iml" filepath="$PROJECT_DIR$/microservice-consumer-movie-ribbon/microservice-consumer-movie-ribbon.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon-with-hystrix/microservice-consumer-movie-ribbon-with-hystrix.iml" filepath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-with-hystrix/microservice-consumer-movie-ribbon-with-hystrix.iml" />

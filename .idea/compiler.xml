@@ -6,8 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="common-enum" />
+        <module name="common-web" />
+        <module name="microservice-api-gateway" />
         <module name="microservice-config-client" />
+        <module name="microservice-config-client-eureka" />
         <module name="microservice-config-server" />
+        <module name="microservice-config-server-eureka" />
         <module name="microservice-consumer-movie-feign" />
         <module name="microservice-consumer-movie-ribbon" />
         <module name="microservice-consumer-movie-ribbon-with-hystrix" />
@@ -18,8 +23,13 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="common-enum" target="1.8" />
+      <module name="common-web" target="1.8" />
+      <module name="microservice-api-gateway" target="1.8" />
       <module name="microservice-config-client" target="1.8" />
+      <module name="microservice-config-client-eureka" target="1.8" />
       <module name="microservice-config-server" target="1.8" />
+      <module name="microservice-config-server-eureka" target="1.8" />
       <module name="microservice-consumer-movie-feign" target="1.8" />
       <module name="microservice-consumer-movie-ribbon" target="1.8" />
       <module name="microservice-consumer-movie-ribbon-with-hystrix" target="1.8" />

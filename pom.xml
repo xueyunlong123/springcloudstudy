@@ -19,6 +19,11 @@
         <module>microservice-hystrix-turbine</module>
         <module>microservice-config-server</module>
         <module>microservice-config-client</module>
+        <module>microservice-config-server-eureka</module>
+        <module>microservice-config-client-eureka</module>
+        <module>microservice-api-gateway</module>
+        <module>common-enum</module>
+        <module>common-web</module>
     </modules>
 
     <!-- 使用最新的spring-boot版本 -->
