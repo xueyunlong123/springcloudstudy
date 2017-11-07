@@ -23,8 +23,6 @@
         <module>microservice-config-client-eureka</module>
         <module>microservice-api-gateway</module>
         <module>common-enum</module>
-        <module>common-web</module>
-        <module>common-utils</module>
     </modules>
 
     <!-- 使用最新的spring-boot版本 -->
@@ -51,14 +49,68 @@
         </dependencies>
     </dependencyManagement>
 
+    <!--<build>-->
+        <!--<plugins>-->
+            <!--<plugin>-->
+                <!--<groupId>org.springframework.boot</groupId>-->
+                <!--<artifactId>spring-boot-maven-plugin</artifactId>-->
+            <!--</plugin>-->
+        <!--</plugins>-->
+    <!--</build>-->
     <build>
         <plugins>
             <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.2</version>
+                <configuration>
+                    <!-- or whatever version you use -->
+                    <source>${java.version}</source>
+                    <target>${java.version}</target>
+                    <encoding>${project.build.sourceEncoding}</encoding>
+                </configuration>
             </plugin>
+            <!--<plugin>-->
+            <!--<groupId>org.mybatis.generator</groupId>-->
+            <!--<artifactId>mybatis-generator-maven-plugin</artifactId>-->
+            <!--<version>${mybatis.generator.version}</version>-->
+            <!--<configuration>-->
+            <!--<verbose>true</verbose>-->
+            <!--<overwrite>true</overwrite>-->
+            <!--</configuration>-->
+            <!--<executions>-->
+            <!--<execution>-->
+            <!--<goals>-->
+            <!--<goal>generate</goal>-->
+            <!--</goals>-->
+            <!--</execution>-->
+            <!--</executions>-->
+            <!--</plugin>-->
+
+            <!--<plugin>-->
+            <!--<groupId>org.mybatis.generator</groupId>-->
+            <!--<artifactId>mybatis-generator-maven-plugin</artifactId>-->
+            <!--<version>${mybatis.generator.version}</version>-->
+            <!--<configuration>-->
+            <!--<verbose>true</verbose>-->
+            <!--<overwrite>true</overwrite>-->
+            <!--</configuration>-->
+            <!--<executions>-->
+            <!--<execution>-->
+            <!--<goals>-->
+            <!--<goal>generate</goal>-->
+            <!--</goals>-->
+            <!--</execution>-->
+            <!--</executions>-->
+            <!--<dependencies>-->
+            <!--<dependency>-->
+            <!--<groupId>org.postgresql</groupId>-->
+            <!--<artifactId>postgresql</artifactId>-->
+            <!--<version>${postgresql.version}</version>-->
+            <!--</dependency>-->
+            <!--</dependencies>-->
+            <!--</plugin>-->
         </plugins>
     </build>
-
 
 </project>

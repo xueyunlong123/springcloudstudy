@@ -7,8 +7,6 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="common-enum" />
-        <module name="common-utils" />
-        <module name="common-web" />
         <module name="microservice-api-gateway" />
         <module name="microservice-config-client" />
         <module name="microservice-config-client-eureka" />
@@ -39,6 +37,7 @@
       <module name="microservice-hystrix-dashboard" target="1.8" />
       <module name="microservice-hystrix-turbine" target="1.8" />
       <module name="microservice-provider-user" target="1.8" />
+      <module name="spring-cloud-study" target="1.8" />
       <module name="springcloudstudy" target="1.8" />
     </bytecodeTargetLevel>
   </component>

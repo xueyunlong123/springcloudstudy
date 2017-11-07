@@ -1,6 +1,8 @@
 spring:
   application:
     name: microservice-api-gateway
+  profiles:
+    active: native
   cloud:
     config:
       profile: dev

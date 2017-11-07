@@ -141,6 +141,5 @@
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-actuator:1.4.0.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-actuator:1.4.0.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.projectlombok:lombok:1.16.10" level="project" />
-    <orderEntry type="module" module-name="common-web" />
   </component>
 </module>

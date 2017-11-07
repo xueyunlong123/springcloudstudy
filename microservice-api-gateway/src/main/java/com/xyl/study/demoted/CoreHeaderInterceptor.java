@@ -4,7 +4,6 @@ import com.netflix.hystrix.strategy.concurrency.HystrixRequestContext;
 import com.netflix.hystrix.strategy.concurrency.HystrixRequestVariableDefault;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang.StringUtils;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.handler.HandlerInterceptorAdapter;
 
@@ -20,10 +19,8 @@ import java.util.List;
 @Slf4j
 public class CoreHeaderInterceptor extends HandlerInterceptorAdapter {
 
-    @Value("${HEADER_LABEL}")
-    public static String HEADER_LABEL;
-    @Value("${HEADER_LABEL_SPLIT}")
-    public static String HEADER_LABEL_SPLIT;
+    public static final String HEADER_LABEL = "x-label";
+    public static final String HEADER_LABEL_SPLIT = ",";
 
     public static final HystrixRequestVariableDefault<List<String>> label = new HystrixRequestVariableDefault<>();
 
