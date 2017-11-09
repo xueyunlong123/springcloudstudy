@@ -19,6 +19,7 @@ public class CoreHttpRequestInterceptor implements ClientHttpRequestInterceptor 
     @Override
     public ClientHttpResponse intercept(HttpRequest request, byte[] body,
                                         ClientHttpRequestExecution execution) throws IOException {
+        log.info("CoreHttpRequestInterceptor 执行");
         HttpRequestWrapper requestWrapper = new HttpRequestWrapper(request);
 
         String header = StringUtils.collectionToDelimitedString(

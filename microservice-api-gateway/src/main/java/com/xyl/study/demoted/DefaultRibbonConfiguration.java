@@ -20,9 +20,9 @@ public class DefaultRibbonConfiguration {
 
     @Bean
     public IRule ribbonRule() {
-        if (StringUtils.isEmpty(name)) {
-            return null;
-        }
+//        if (StringUtils.isEmpty(name)) {
+//            return null;
+//        }
 
         // LWR 默认配置
         LabelAndWeightMetadataRule rule = new LabelAndWeightMetadataRule();
